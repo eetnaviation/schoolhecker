@@ -22,55 +22,67 @@ Partial Class main
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.minecraft = New System.Windows.Forms.Button()
-        Me.tlegacy = New System.Windows.Forms.Button()
-        Me.schoolbatcher = New System.Windows.Forms.Button()
-        Me.SuspendLayout()
-        '
-        'minecraft
-        '
-        Me.minecraft.Location = New System.Drawing.Point(12, 11)
-        Me.minecraft.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.minecraft.Name = "minecraft"
-        Me.minecraft.Size = New System.Drawing.Size(210, 22)
-        Me.minecraft.TabIndex = 0
-        Me.minecraft.Text = "Vanilla Launcher (MC)"
-        Me.minecraft.UseVisualStyleBackColor = True
-        '
-        'tlegacy
-        '
-        Me.tlegacy.Location = New System.Drawing.Point(12, 38)
-        Me.tlegacy.Name = "tlegacy"
-        Me.tlegacy.Size = New System.Drawing.Size(210, 23)
-        Me.tlegacy.TabIndex = 1
-        Me.tlegacy.Text = "TL Legacy (MC)"
-        Me.tlegacy.UseVisualStyleBackColor = True
-        '
-        'schoolbatcher
-        '
-        Me.schoolbatcher.Location = New System.Drawing.Point(12, 67)
-        Me.schoolbatcher.Name = "schoolbatcher"
-        Me.schoolbatcher.Size = New System.Drawing.Size(210, 23)
-        Me.schoolbatcher.TabIndex = 2
-        Me.schoolbatcher.Text = "schoolhecker legacy (schoolbatcher)"
-        Me.schoolbatcher.UseVisualStyleBackColor = True
-        '
-        'main
-        '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(410, 338)
-        Me.Controls.Add(Me.schoolbatcher)
-        Me.Controls.Add(Me.tlegacy)
-        Me.Controls.Add(Me.minecraft)
-        Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Name = "main"
-        Me.Text = "schoolhecker v1.0 - slimegamerc"
-        Me.ResumeLayout(False)
-
+        minecraft = New Button()
+        tlegacy = New Button()
+        schoolbatcher = New Button()
+        Label1 = New Label()
+        SuspendLayout()
+        ' 
+        ' minecraft
+        ' 
+        minecraft.Location = New Point(12, 11)
+        minecraft.Margin = New Padding(3, 2, 3, 2)
+        minecraft.Name = "minecraft"
+        minecraft.Size = New Size(210, 22)
+        minecraft.TabIndex = 0
+        minecraft.Text = "Vanilla Launcher (MC)"
+        minecraft.UseVisualStyleBackColor = True
+        ' 
+        ' tlegacy
+        ' 
+        tlegacy.Location = New Point(12, 38)
+        tlegacy.Name = "tlegacy"
+        tlegacy.Size = New Size(210, 23)
+        tlegacy.TabIndex = 1
+        tlegacy.Text = "TL Legacy (MC)"
+        tlegacy.UseVisualStyleBackColor = True
+        ' 
+        ' schoolbatcher
+        ' 
+        schoolbatcher.Location = New Point(12, 67)
+        schoolbatcher.Name = "schoolbatcher"
+        schoolbatcher.Size = New Size(210, 23)
+        schoolbatcher.TabIndex = 2
+        schoolbatcher.Text = "schoolhecker legacy (schoolbatcher)"
+        schoolbatcher.UseVisualStyleBackColor = True
+        ' 
+        ' Label1
+        ' 
+        Label1.AutoSize = True
+        Label1.Location = New Point(9, 315)
+        Label1.Name = "Label1"
+        Label1.Size = New Size(121, 15)
+        Label1.TabIndex = 3
+        Label1.Text = "made by eetnaviation"
+        ' 
+        ' main
+        ' 
+        AutoScaleDimensions = New SizeF(7F, 15F)
+        AutoScaleMode = AutoScaleMode.Font
+        ClientSize = New Size(410, 338)
+        Controls.Add(Label1)
+        Controls.Add(schoolbatcher)
+        Controls.Add(tlegacy)
+        Controls.Add(minecraft)
+        Margin = New Padding(3, 2, 3, 2)
+        Name = "main"
+        Text = "schoolhecker v1.0"
+        ResumeLayout(False)
+        PerformLayout()
     End Sub
 
     Friend WithEvents minecraft As Button
     Friend WithEvents tlegacy As Button
     Friend WithEvents schoolbatcher As Button
+    Friend WithEvents Label1 As Label
 End Class
