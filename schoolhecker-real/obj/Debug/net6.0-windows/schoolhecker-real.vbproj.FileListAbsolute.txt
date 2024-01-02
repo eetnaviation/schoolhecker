@@ -24,7 +24,6 @@ C:\Users\renha\Desktop\schoolhecker\schoolhecker-real\bin\Debug\net6.0-windows\s
 C:\Users\renha\Desktop\schoolhecker\schoolhecker-real\bin\Debug\net6.0-windows\schoolhecker-real.runtimeconfig.json
 C:\Users\renha\Desktop\schoolhecker\schoolhecker-real\bin\Debug\net6.0-windows\schoolhecker-real.dll
 C:\Users\renha\Desktop\schoolhecker\schoolhecker-real\bin\Debug\net6.0-windows\schoolhecker-real.pdb
-C:\Users\renha\Desktop\schoolhecker\schoolhecker-real\obj\Debug\net6.0-windows\schoolhecker-real.vbproj.AssemblyReference.cache
 C:\Users\renha\Desktop\schoolhecker\schoolhecker-real\obj\Debug\net6.0-windows\schoolhecker_real.Form1.resources
 C:\Users\renha\Desktop\schoolhecker\schoolhecker-real\obj\Debug\net6.0-windows\schoolhecker_real.main.resources
 C:\Users\renha\Desktop\schoolhecker\schoolhecker-real\obj\Debug\net6.0-windows\schoolhecker_real.Resources.resources

@@ -12,7 +12,8 @@ Public Class Form1
         Dim keyHash As String
         username = txtUser.Text
         keyInput = txtKey.Text
-        keyHash = Md5FromString(username)
+        keyHash = "1234" ''edited for release so you don't have to remember the password
+        ''keyHash = Md5FromString(username)
         If (keyInput.Equals(keyHash)) Then
             main.Show()
         Else
